@@ -1,3 +1,7 @@
+import warnings
+
+warnings.filterwarnings("ignore", category=UserWarning, message="You are using pip version 22.0.3; however, version 24.0 is available.")
+
 import streamlit as st
 import psycopg2
 
