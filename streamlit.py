@@ -1,9 +1,5 @@
 import streamlit as st
-import psycopg2  # Assuming you have psycopg2 installed (`pip install psycopg2`)
-
-# Set a background image
-st.set_page_config(page_title="Sanghamitra Learning - Basic Math Quiz", page_icon=":education:")
-
+import psycopg2
 
 
 st.title("Test Your Math Skills with Sanghamitra Learning!")
